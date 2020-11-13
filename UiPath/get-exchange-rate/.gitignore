@@ -2,6 +2,7 @@
 .local
 .screenshots
 .settings
+.objects
 *.png
 
 
