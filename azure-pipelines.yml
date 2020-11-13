@@ -13,6 +13,6 @@ steps:
 - task: UiPathPack@2
   inputs:
     versionType: 'AutoVersion'
-    projectJsonPath: '$(Build.Repository.LocalPath)\RPA\UiPath\get-exchange-rate\'
+    projectJsonPath: '$(Build.Repository.LocalPath)\RPA\UiPath\get-exchange-rate\project.json'
     outputType: 'Process'
     outputPath: '$(Build.ArtifactStagingDirectory)\Output'
