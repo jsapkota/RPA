@@ -1,3 +1,10 @@
+#Ignore .local file
+.local
+.screenshots
+.settings
+*.png
+
+
 # Compiled source #
 ###################
 *.com
